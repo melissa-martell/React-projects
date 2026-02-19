@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    max-width: 700px;
+    margin: auto;
+}
+
+.header {
+    background-color: #f24141;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.travel-container {
+    display: flex;
+    gap: 30px;
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.travel-img-container {
+    width: 175px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+}
+
+.travel-img-container > img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.travel-info-header,
+.travel-date {
+    display: flex;
+    font-size: .8rem;
+    align-items: center;
+}
+
+.travel-date {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.travel-info-header > a {
+    margin-left: 10px;
+    color: #999;
+}
+
+.travel-title {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.travel-text {
+    font-size: 15px;
+}
